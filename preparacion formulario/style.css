@@ -1,0 +1,55 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+}
+
+body{
+    background: url(./Untitled_design_3.webp);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    color: pink;
+    font-family: 'Joan', serif;
+    height: 100vh;
+}
+nav{
+    background-color:palevioletred;
+    width: 100%;
+}
+.menu{
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    width: 100%;
+}
+.lista a{
+    text-decoration: none;
+    color: white;
+    display: block;
+    padding: 15px 50px;
+}
+.menu .lista{
+    display: inline-block;
+}
+.lista-r{
+    float: right;
+}
+.lista a:hover{
+    background-color: plum;
+}
+main{
+    text-align: center;
+}
+.container{
+    align-items: center;
+    flex-direction: column;
+    display: flex;
+    justify-content: center;
+}
+label{
+    text-align: center;
+    margin-top: 10px;
+    font-size: 20px;
+    color: white;
+
+}
